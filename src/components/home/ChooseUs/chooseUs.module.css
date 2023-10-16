@@ -1,0 +1,84 @@
+
+.container{
+    padding: 30px;
+}
+
+.topContent{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.heading{
+    font-size: 30px;
+    font-family: var(---font-acme);
+    font-family: 'Acme', sans-serif;
+    font-weight: 500;
+    color: var(--color-gray1);
+    margin-bottom: 16px;
+    text-transform: uppercase;
+}
+
+.reasonCards{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.reasonCard{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    transition: all .5s ease-in-out;
+}
+
+.reasonCard h3{
+    color: var(--color-orange);
+}
+
+.reasonCard p{
+    color: var(--color-gray);
+    font-size: 14px;
+    line-height: 160%;
+}
+
+.reasonCard:nth-child(2){
+    border-left: 1px dashed var(--color-shadow);
+    border-right: 1px dashed var(--color-shadow);
+}
+
+.reasonCard:hover{
+    box-shadow: 0 5px 15px rgba(0,0,0,.1);
+    transform: translateY(-5px);
+}
+
+.content{
+    width: 100%;
+    box-shadow: 0 5px 25px rgba(0,0,0,.1);
+}
+
+.list{
+    max-width: 1200px;
+    margin: auto;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.item{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.item h2{
+    font-size: 55px;
+    flex-direction: 900;
+    color: var(--color-gray);
+}
+
+.item p{
+    font-size: 16px;
+    color: var(--color-gray);
+}

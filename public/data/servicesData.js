@@ -12,7 +12,7 @@ export const servicesData = {
                                 name: 'fi-sr-book'
                             }
                         },
-                        title: 'Language Translation',
+                        title: 'LANGUAGE TRANSLATION',
                         description: 'Get your business processes transform with proficient call center support.',
                         url: '/'
                     }
@@ -24,7 +24,7 @@ export const servicesData = {
                                 name: 'fi-sr-book'
                             }
                         },
-                        title: 'Language Translation',
+                        title: 'MULTILINGUAL TRANSCRIPTION',
                         description: 'Get your business processes transform with proficient call center support.',
                         url: '/'
                     }
@@ -36,7 +36,7 @@ export const servicesData = {
                                 name: 'fi-sr-book'
                             }
                         },
-                        title: 'Language Translation',
+                        title: 'INTERPRETATION',
                         description: 'Get your business processes transform with proficient call center support.',
                         url: '/'
                     }
@@ -48,7 +48,7 @@ export const servicesData = {
                                 name: 'fi-sr-book'
                             }
                         },
-                        title: 'Language Translation',
+                        title: 'VOICE OVER SERVICES',
                         description: 'Get your business processes transform with proficient call center support.',
                         url: '/'
                     }
@@ -60,7 +60,7 @@ export const servicesData = {
                                 name: 'fi-sr-book'
                             }
                         },
-                        title: 'Language Translation',
+                        title: 'MULTILINGUAL RECRUITMENT',
                         description: 'Get your business processes transform with proficient call center support.',
                         url: '/'
                     }
@@ -72,7 +72,7 @@ export const servicesData = {
                                 name: 'fi-sr-book'
                             }
                         },
-                        title: 'Language Translation',
+                        title: 'FOREIGN LANGUAGE SUBTITLING',
                         description: 'Get your business processes transform with proficient call center support.',
                         url: '/'
                     }
@@ -84,7 +84,7 @@ export const servicesData = {
                                 name: 'fi-sr-book'
                             }
                         },
-                        title: 'Language Translation',
+                        title: 'APOSTILE SERVICES',
                         description: 'Get your business processes transform with proficient call center support.',
                         url: '/'
                     }
@@ -96,19 +96,7 @@ export const servicesData = {
                                 name: 'fi-sr-book'
                             }
                         },
-                        title: 'Language Translation',
-                        description: 'Get your business processes transform with proficient call center support.',
-                        url: '/'
-                    }
-                },
-                {
-                    attributes: {
-                        icon: {
-                            attributes: {
-                                name: 'fi-sr-book'
-                            }
-                        },
-                        title: 'Language Translation',
+                        title: 'FOREIGN LANGUAGE TESTING',
                         description: 'Get your business processes transform with proficient call center support.',
                         url: '/'
                     }

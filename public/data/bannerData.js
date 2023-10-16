@@ -44,7 +44,7 @@ export const bannerData = {
                         attributes: {
                             icon: {
                                 attributes: {
-                                    name: 'fi-sr-book'
+                                    name: 'flaticon-medal'
                                 }
                             },
                             title: '250+',
@@ -55,7 +55,7 @@ export const bannerData = {
                         attributes: {
                             icon: {
                                 attributes: {
-                                    name: 'fi-sr-book'
+                                    name: 'flaticon-typing'
                                 }
                             },
                             title: '600+',
@@ -66,7 +66,7 @@ export const bannerData = {
                         attributes: {
                             icon: {
                                 attributes: {
-                                    name: 'fi-sr-book'
+                                    name: 'flaticon-world'
                                 }
                             },
                             title: '108K+',
@@ -77,7 +77,7 @@ export const bannerData = {
                         attributes: {
                             icon: {
                                 attributes: {
-                                    name: 'fi-sr-book'
+                                    name: 'flaticon-customer-service'
                                 }
                             },
                             title: '11K+',

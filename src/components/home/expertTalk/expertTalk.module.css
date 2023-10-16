@@ -1,0 +1,133 @@
+
+
+.container{
+    background: var(--color-graylight);
+}
+
+.content{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 30px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+
+.description{
+    flex: 5;
+    font-size: 24px;
+    line-height: 170%;
+    color: var(--color-gray);
+}
+
+.formContainer{
+    flex: 2;
+    width: 319px;
+    height: fit-content;
+    background: rgba(0,0,0,.5);
+    color: var(--color-light);
+    text-align: center;
+    border: 1px solid var(--color-graylight);
+    border-radius: 3px 3px 0 0;
+    box-shadow: 0 0 7px var(--color-graylight);
+}
+
+.formHeading{
+    padding: 11px 0;
+    font-size: 22px;
+    letter-spacing: .5;
+    font-weight: 400;
+}
+
+.formHeading span{
+    font-size: 23px;
+    font-weight: 700;
+}
+
+.formBrief{
+    font-size: 14px;
+    padding-bottom: 5px;
+}
+
+.form{
+    width: 100%;
+    height: fit-content;
+    background: var(--color-white);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 13px;
+}
+
+.input{
+    padding: 10px 12px;
+    width: 100%;
+    border: 1px solid var(--color-orange);
+    border-radius: 3px;
+}
+
+.span{
+    display: flex;
+    background: var(--color-graylight);
+    border: 1px solid var(--color-orange);
+    border-radius: 3px;
+}
+.span:focus-within{
+    border-color: var(--color-black);
+}
+
+.fileInput{
+    color: var(--color-black);
+}
+
+.fileInput::-webkit-file-upload-button{
+   border-radius: 1px;
+   background: rgba(67, 184, 197,.3);
+   color: var(--color-blue);
+   border: 2px dashed var(--color-blue);
+   padding: 3px 10px;
+   cursor: pointer;
+}
+
+.span button{
+    padding: 10px 12px;
+}
+.span .input{
+    border: none;
+    border-radius: 0;
+    outline: none;
+}
+
+.textarea{
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid var(--color-orange);
+    border-radius: 3px;
+    resize: vertical;
+}
+
+.button{
+    padding: 5px 10px;
+    color: var(--color-orange);
+    font-size: 22px;
+    font-weight: 500;
+    border: 1px solid var(--color-orange);
+    border-radius: 3px;
+}
+
+.button:hover{
+    color: var(--color-white);
+    background: var(--color-orange);
+}
+
+.text{
+    color: var(--color-black);
+    font-size: 11px;
+    text-align: left;
+}
+.text a{
+    color: var(--color-blue);
+}

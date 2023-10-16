@@ -30,7 +30,16 @@ const Header = () => {
                 ALL SERVICES
               </Link>
               <span>
-              {topLinks.map((item, i)=> <Link href={item.url} className={styles.menuLink} key={i}>{item.text}</Link>)}
+              {topLinks.map((item, i)=> <li key={i}>
+                {item.url ? <>
+                  <Link className={styles.menuLink} href={item.url}>{item.text}
+                  </Link>
+                </> : <button className={styles.menuLink}>{item.text}</button>}
+                
+                  {item.links && <nav>
+                    {item.links.map((link, i) => <Link href={link.url} key={i}>{link.text}</Link>)}
+                  </nav>}
+              </li>)}
               </span>
             </div>
 

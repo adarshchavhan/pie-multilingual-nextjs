@@ -9,7 +9,12 @@ export const countryData = {
                         url: '/imgs/countries.png'
                     }
                 }
-            }
+            },
+            countries: [
+                {
+                    name: ''
+                }
+            ]
         }
     }
 }

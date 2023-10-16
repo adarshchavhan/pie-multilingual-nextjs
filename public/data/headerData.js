@@ -5,7 +5,20 @@ export const topLinks = [
     },
     {
       text: "Languages",
-      url: "#"
+      links: [
+        {
+          text: "Spanish",
+          url: "#"
+        },
+        {
+          text: "French",
+          url: "#"
+        },
+        {
+          text: "German",
+          url: "#"
+        }
+      ]
     },
     {
       text: "About Us",

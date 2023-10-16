@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import styles from './services.module.css';
 import Image from 'next/image';
-import { servicesData } from '../../../public/data/servicesData';
+import { servicesData } from '../../../../public/data/servicesData';
 
 const Services = async() => {
   const {data: {attributes}} = servicesData

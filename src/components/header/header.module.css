@@ -6,7 +6,7 @@
 
 .topBar{
     width: 100%;
-    max-width: 1150px;
+    max-width: 1220px;
     height: 85px;
     padding: 0 10px;
     margin: auto;
@@ -41,10 +41,17 @@
     box-shadow: 0 0 5px var(--color-black);
 }
 
+
 .menu span{
     display: flex;
     justify-content: flex-end;
     align-items: center;
+}
+.menu span li{
+    list-style: none;
+    position: relative;
+    display: flex;
+    flex-direction: column;
 }
 
 .menuLink{
@@ -58,12 +65,48 @@
     border-right: 1px solid var(--color-white);
 }
 
+.menu span li nav{
+    width: calc(100% + 10px);
+    padding-top: 5px;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: var(--color-orange);
+    color: var(--color-white);
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+    display: none;
+}
+
+.menu span li nav a{
+    color: var(--color-white);
+    padding: 7px 10px;
+    font-size: 13px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border-right: 1px solid var(--color-white);
+}
+
+.menu span li nav a:hover{
+    color: #000;
+}
+
 .menuLink:last-child{
     border-right: none;
 }
 
 .menuLink:hover{
     color: #000;
+}
+
+.menu span li:hover > nav,
+.menu span li:focus-within > nav,
+.menu span li:focus > nav{
+    display: flex;
 }
 
 .search{

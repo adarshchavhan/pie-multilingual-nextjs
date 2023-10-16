@@ -27,7 +27,7 @@ const Banner = () => {
                   bannerData.data.attributes.services.data.map((item, i)=> (
                     <li className={styles.serviceCard} key={i}>
                       <div className={styles.serviceIcon}>
-                        <i className={`fi ${item.attributes.icon.attributes.name}`}></i>
+                        <i className={item.attributes.icon.attributes.name}></i>
                       </div>
                       <div className={styles.serviceText}>
                         <h4>{item.attributes.title}</h4>

@@ -1,6 +1,7 @@
 import Header from '@/components/header/Header';
 import './globals.css'
 import '@flaticon/flaticon-uicons/css/all/all.css'
+import '../../public/icons/flaticon.css'
 import { Acme, Roboto } from 'next/font/google'
 
 const controller = new AbortController();
@@ -17,7 +18,7 @@ const acme = Acme({
 });
 
 const roboto = Roboto({ 
-  weight: ['100','300','400','500','700'],
+  weight: ['100','300','400','500','700', '900'],
   subsets: ['latin'],
   variable: '--font-roboto'
 });
