@@ -108,7 +108,7 @@
                 .clientHeading{
                     color: $white;
                     font-weight: 500;
-                    font-size: 14px;
+                    font-size: 18px;
                 }
                 
                 .clients{
@@ -206,7 +206,7 @@
                         padding: 10px 12px;
                         border: 1px solid $orange;
                         border-radius: 3px;
-                        resize: vertical;
+                        resize: none;
                     }
                     
                     .button{

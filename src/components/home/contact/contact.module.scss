@@ -20,9 +20,21 @@
                 font-family: $acmeFont;
                 color: $gray1;
                 font-weight: 500;
-                font-size: 32px;
+                font-size: 28px;
                 margin-bottom: 35px;
                 text-transform: uppercase;
+
+                .line{
+                    padding: 2px;
+                    background: $royalBlue;
+                    transform: rotate(130deg);
+                }
+                .orangeText{
+                    display: inline-block;
+                    color: $orange;
+                    margin-left: 50px;
+                    padding-left: 50px;
+                }   
             }
             
             .description{
@@ -36,7 +48,7 @@
         .formContainer{
             flex: 1;
             background: #fff;
-            padding: 60px 80px;
+            padding: 60px 60px;
             box-shadow: 0px 15px 60px -10px #3379b72c;
             border-radius: 10px;
             position: relative;
@@ -98,6 +110,7 @@
                     font-size: 15px;
                     font-family: inherit;
                     outline: none;
+                    resize: none;
                 }
                 .span{
                     display: flex;

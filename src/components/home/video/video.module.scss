@@ -42,17 +42,18 @@
             position: relative;
             .video{
                 iframe{
-                    width: 100% !important;
+                    width: calc(100% - 30px) !important;
                     max-width: 880px !important;
                     aspect-ratio: 16/9 !important;
                     border-radius: 3px;
                     margin: auto;
+                    margin-right: 10px;
                 }
             }
             .videoBg1{
                 position: absolute;
                 top: calc(0% - 30px);
-                right: calc(0% - 30px);
+                right: calc(0% - 0px);
                 z-index: -1;
                 opacity: .5;
                 transform: rotate(180deg);

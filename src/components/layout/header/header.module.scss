@@ -156,14 +156,15 @@
                 >.link {
                     height: 100%;
                     text-transform: capitalize;
-                    line-height: 14px;
+                    // line-height: 1;
+                    font-size: 13.5px;
                     display: flex;
                     align-items: center;
 
                     >span {
                         padding: 8px 18px 8px;
                         white-space: nowrap;
-                        font-size: 12.5px;
+                        font-size: inherit;
                         font-weight: 500;
                         display: flex;
                     }
