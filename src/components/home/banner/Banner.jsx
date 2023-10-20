@@ -1,17 +1,110 @@
+import styles from './banner.module.scss'
 import Image from 'next/image';
-import styles from './banner.module.css';
 import Link from 'next/link';
-import {bannerData} from '@./../../public/data/bannerData'
 
-const Banner = () => {
+
+export const bannerData = {
+  data: {
+      attributes: {
+          bannerImg: {
+              data: {
+                  attributes: {
+                      url: '/imgs/cover.png'
+                  }
+              }
+          },
+
+          clientImgs: {
+              data: [
+                  {
+                      attributes: {
+                          url: '/imgs/client-1.png'
+                      }
+                  },
+                  {
+                      attributes: {
+                          url: '/imgs/client-2.png'
+                      }
+                  },
+                  {
+                      attributes: {
+                          url: '/imgs/client-3.png'
+                      }
+                  },
+                  {
+                      attributes: {
+                          url: '/imgs/client-4.png'
+                      }
+                  },
+              ]
+          },
+
+          serviceTitle: 'Get Ahead of Competition with',
+          serviceSubTitle: 'FOREIGN LANGUAGE SERVICE COMPANY',
+          
+          services: {
+              data: [
+                  {
+                      attributes: {
+                          icon: {
+                              attributes: {
+                                  name: 'flaticon-medal'
+                              }
+                          },
+                          title: '250+',
+                          description: 'Happy Customer'
+                      }
+                  },
+                  {
+                      attributes: {
+                          icon: {
+                              attributes: {
+                                  name: 'flaticon-typing'
+                              }
+                          },
+                          title: '600+',
+                          description: 'Completed Projects'
+                      }
+                  },
+                  {
+                      attributes: {
+                          icon: {
+                              attributes: {
+                                  name: 'flaticon-world'
+                              }
+                          },
+                          title: '108K+',
+                          description: 'Available Resources'
+                      }
+                  },
+                  {
+                      attributes: {
+                          icon: {
+                              attributes: {
+                                  name: 'flaticon-customer-service'
+                              }
+                          },
+                          title: '11K+',
+                          description: 'Subscribers'
+                      }
+                  }
+              ]
+          }
+      }
+  }
+}
+
+
+const Banner = ({userCountry}) => {
   const {data: {attributes: {bannerImg, clientImgs}}} = bannerData;
 
   return (
     <div className={styles.container}>
       <Image 
-        src={bannerImg.data.attributes.url} alt='banner'
-        width={1024} height={580}
+        src={bannerImg.data.attributes.url} alt='banner_image'
+        width={0} height={0} sizes='100%'
         className={styles.bannerImg}
+        priority
       />
 
       <div className={styles.contentContainer}>
@@ -58,15 +151,13 @@ const Banner = () => {
                 <input type="text" className={styles.input} placeholder='Name' />
                 <input type="email" className={styles.input} placeholder='Email' />
                 <span className={styles.span}>
-                  <button disabled>IN</button>
+                  <button disabled>{userCountry.countryCode}</button>
                   <input type="number" className={styles.input} placeholder='Phone' />
                 </span>
                 <textarea className={styles.textarea} cols="30" rows="7" placeholder='Write requirements'></textarea>
 
-                <input type="file" className={styles.fileInput} id="fileInput" />
-
                 <button className={styles.button}>➤ SEND</button>
-                <p className={styles.text}>We respect your privacy <Link href="#">Policy</Link></p>
+                <p className={styles.text}>We respect your privacy <Link href="/">Policy</Link></p>
               </form>
           </div>
           

@@ -3,12 +3,14 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
 // Import Swiper styles
 import { Pagination } from 'swiper/modules';
+import {useEffect, useState} from 'react'
 
 import 'swiper/css';
 import 'swiper/css/pagination';
-import styles from './testimonials.module.css';
+import styles from './testimonials.module.scss';
 
 const Reviews = ({reviews}) => {
+  
   return (
     <div className={styles.swiper}>
         <Swiper
@@ -30,7 +32,6 @@ const Reviews = ({reviews}) => {
                 <h4 className={styles.name}>{item.name}</h4>
                 <h4 className={styles.role}>{item.role} <span>{item.location}</span></h4>
             </SwiperSlide>
-
         ))}
       </Swiper>
     </div>

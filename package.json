@@ -1,23 +1,26 @@
 {
-  "name": "pie",
+  "name": "pie-app",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "node server.js",
+    "start": "NODE_ENV=production node server.js",
     "lint": "next lint"
   },
   "dependencies": {
     "@flaticon/flaticon-uicons": "^2.4.0",
-    "mdb-ui-kit": "^6.4.2",
-    "next": "13.5.4",
-    "react": "^18",
-    "react-dom": "^18",
-    "swiper": "^10.3.1"
-  },
-  "devDependencies": {
-    "eslint": "^8",
-    "eslint-config-next": "13.5.4"
+    "axios": "^1.5.1",
+    "eslint": "8.51.0",
+    "eslint-config-next": "13.5.5",
+    "formik": "^2.4.5",
+    "next": "^13.5.4",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-simple-star-rating": "^5.1.7",
+    "sass": "^1.69.4",
+    "sharp": "^0.32.6",
+    "swiper": "^10.3.1",
+    "yup": "^1.3.2"
   }
 }
