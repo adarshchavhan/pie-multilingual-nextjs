@@ -1,7 +1,7 @@
 import styles from './banner.module.scss'
 import Image from 'next/image';
 import Link from 'next/link';
-
+import coverImg from './cover.png'
 
 export const bannerData = {
   data: {
@@ -101,8 +101,8 @@ const Banner = ({userCountry}) => {
   return (
     <div className={styles.container}>
       <Image 
-        src={bannerImg.data.attributes.url} alt='banner_image'
-        width={0} height={0} sizes='100%'
+        src={coverImg} alt='banner_image'
+        fill
         className={styles.bannerImg}
         priority
       />

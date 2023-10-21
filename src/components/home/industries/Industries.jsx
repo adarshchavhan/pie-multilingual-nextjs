@@ -125,7 +125,7 @@ const Industries = () => {
                 </div>
                 <div className={styles.right}>
                     <div className={styles.imgWrapper}>
-                        <Image src={industriesData.img} width={300} height={300} alt="" />
+                        <Image src={industriesData.img} width={0} height={0} sizes='100%' alt="" />
                     </div>
                 </div>
             </div>
