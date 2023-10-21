@@ -33,7 +33,7 @@ const data = {
   ]
 }
 
-const ChooseUs = () => {
+export const ChooseUs = () => {
   return (
     <div className={styles.container}>
       
@@ -60,5 +60,3 @@ const ChooseUs = () => {
     </div>
   )
 }
-
-export default ChooseUs
