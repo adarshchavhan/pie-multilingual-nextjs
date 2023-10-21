@@ -18,7 +18,7 @@ const Video = () => {
     <div>
       <div className={styles.content}>
         <div className={styles.left}>
-          <h2 className={styles.heading}>{data.attributes.heading}</h2>
+          <h1 className={styles.heading}>{data.attributes.heading}</h1>
           <div className={styles.description} dangerouslySetInnerHTML={{__html: data.attributes.description}}></div>
         </div>
         <div className={styles.right}>

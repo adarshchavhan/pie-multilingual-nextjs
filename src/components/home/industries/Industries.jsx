@@ -110,7 +110,7 @@ const Industries = () => {
         <div className={styles.container}>
             <div className={styles.content}>
                 <div className={styles.left}>
-                    <h3 className={styles.heading}>{industriesData.heading}</h3>
+                    <h2 className={styles.heading}>{industriesData.heading}</h2>
                     <p className={styles.description}>{industriesData.description}</p>
                     <ul className={styles.list}>
                         {industriesData.idustries.map((item, i)=> <li key={i} className={styles.itemWrapper}>

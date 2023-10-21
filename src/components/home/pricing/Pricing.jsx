@@ -16,7 +16,7 @@ const Pricing = () => {
         </div>
         <div className={styles.content}>
             <div className={styles.div}>
-                <h3 className={styles.heading}>{data.heading}</h3>
+                <h2 className={styles.heading}>{data.heading}</h2>
                 <p className={styles.description}>{data.description}</p>
                 <a className={styles.btn} href={data.url}>Know More</a>
             </div>

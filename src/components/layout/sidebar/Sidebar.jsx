@@ -27,13 +27,13 @@ const Sidebar = ({links}) => {
             <span></span>
          </button>
 
-         <div className={`${open ? styles.sideMenu : styles.closeMenu}`}>
+         {/* <div className={`${open ? styles.sideMenu : styles.closeMenu}`}>
             <Links {...{handleMenu, links}}/>
 
             <div className={styles.search}>
                 <input type="text" className={styles.input} placeholder='Search' onKeyDown={handleSearch} />
             </div>
-         </div>
+         </div> */}
     </>
   )
 }

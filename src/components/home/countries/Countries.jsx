@@ -110,7 +110,7 @@ const Countries = () => {
   return (
     <div className={styles.container}>
          <div className={styles.left}>
-            <h1 className={styles.heading}>{attributes.heading}</h1>
+            <h2 className={styles.heading}>{attributes.heading}</h2>
             <p className={styles.desc}>{attributes.description}</p>
          </div>
          <div className={styles.right}>

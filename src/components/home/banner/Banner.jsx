@@ -107,6 +107,7 @@ const Banner = ({userCountry}) => {
         priority
       />
 
+
       <div className={styles.contentContainer}>
         <div className={styles.content}>
 

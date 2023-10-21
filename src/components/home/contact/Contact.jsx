@@ -7,9 +7,9 @@ const Contact = ({userCountry}) => {
       <div className={styles.content}>
         <div className={styles.textContainer}>
           <h2 className={styles.heading}>
-            <span>Talk</span>
+            <span className={styles.orangeText}>Talk</span>
             <div className={styles.line}></div>
-          <span className={styles.orangeText}>Experts</span></h2>
+          <span className={styles.blueText}>Experts</span></h2>
 
         
 

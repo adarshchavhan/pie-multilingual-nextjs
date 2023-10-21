@@ -38,7 +38,7 @@ const ChooseUs = () => {
     <div className={styles.container}>
       
       <div className={styles.topContent}>
-          <h1 className={styles.heading}>{data.heading}</h1>
+          <h2 className={styles.heading}>{data.heading}</h2>
           <ul className={styles.reasonCards}>
               {data.reasons.map((item, i)=> (
                   <div key={i} className={styles.reasonCard}>

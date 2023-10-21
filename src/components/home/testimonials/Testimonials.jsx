@@ -40,7 +40,7 @@ const Testimonials = () => {
     <div className={styles.container}>
       <div className={styles.content}>
         <div className={styles.left}>
-        <h3 className={styles.heading}>{data.heading}</h3>
+        <h2 className={styles.heading}>{data.heading}</h2>
         <p className={styles.brief}>{data.descripiton}</p>
           <div className={styles.div}>
             <ul className={styles.usersList}>

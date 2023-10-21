@@ -98,7 +98,7 @@ const Header = () => {
               />
             </Link>
 
-            {/* <Sidebar links={bottomLinks} /> */}
+            <Sidebar links={bottomLinks} />
           </div>
           
           <div className={styles.right}>
