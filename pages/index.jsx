@@ -19,7 +19,7 @@ const index = () => {
   }
 
   return (
-    <>
+    <div className="main-container">
       <Banner {...{userCountry}}/>
       <Video/>
       <Services/>
@@ -30,7 +30,7 @@ const index = () => {
       <Testimonials/>
       <Pricing/>
       <Contact {...{userCountry}}/>
-    </>
+    </div>
   )
 }
 

@@ -1,3 +1,5 @@
+@import './mixin.scss';
+
 :root{
     font-family: var(--font-roboto);
 }
@@ -37,4 +39,12 @@ i{
         font-size: inherit;
         font-weight: normal;
     }
+}
+
+.main-container{
+    min-height: 100vh;
+}
+
+.backdrop{
+    @include backdrop;
 }

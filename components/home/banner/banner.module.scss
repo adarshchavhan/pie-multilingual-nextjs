@@ -264,6 +264,10 @@
 
     @include md{
        
+        .bannerImg{
+            position: static !important;
+        }
+
         .contentContainer{
             padding-top: 20px !important;
             gap: 0px !important;

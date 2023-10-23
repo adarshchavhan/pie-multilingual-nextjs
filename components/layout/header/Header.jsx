@@ -42,8 +42,8 @@ export const bottomLinks = [
     url: "/"
   },
   {
-    text: "FOREGN LANGUAGE</br> SUPPORT",
-    url: "/"
+    text: "FOREIGN LANGUAGE</br> SUPPORT",
+    url: "/outsource-multilingual-translation-services"
   },
   {
     text: "MARKET RESEARCH </br>& ANALYSIS",

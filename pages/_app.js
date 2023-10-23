@@ -1,35 +1,21 @@
 import '../public/icons/mdb-flags.css'
 import '../public/icons/flaticon.css'
 import '../styles/global.scss'
-import { Acme, Fira_Code, Roboto } from 'next/font/google'
-import Footer from '@/components/layout/footer/Footer'
 import Header from '@/components/layout/header/Header'
-
-const acme = Acme({
-  subsets:['latin'],
-  weight: ['400']
-});
-
-const firaCode = Fira_Code({
-  subsets:['latin'],
-  weight: ['300','400','500']
-});
-
-
-const roboto = Roboto({
-  subsets:['latin'],
-  weight: ['100','300','400','500','700','900']
-})
+import Footer from '@/components/layout/footer/Footer'
 
 
 const App = ({Component, pageProps}) => {
   return (
     <>
       <style jsx global>{`
+        @import url('https://fonts.googleapis.com/css2?family=Acme&family=Fira+Sans:ital,wght@0,200;0,300;0,400;0,500;0,800;0,900;1,600;1,700&family=Roboto+Mono:ital,wght@0,300;0,400;0,500;0,600;0,700;1,500&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
         :root{
-          --font-acme: ${acme.style.fontFamily};
-          --font-firaCode: ${firaCode.style.fontFamily};
-          --font-roboto: ${roboto.style.fontFamily};
+          --font-acme: 'Acme', sans-serif;
+          --font-firaCode: 'Fira Sans', sans-serif;
+          --font-roboto: 'Roboto', sans-serif;
+          --font-robotoMono: 'Roboto Mono', monospace;
         }
       `}</style>
       <Header/>
